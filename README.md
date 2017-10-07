@@ -1,8 +1,8 @@
-# Решатель квадратных уравнений
+# Quadratic equations solver
 
 This is the library which solves quadratic equations
 
-# Как использовать
+# How to use
 Functions in the library:
 
 -- get_roots(a, b, c)
@@ -16,7 +16,7 @@ Function output:
 3) None, None if discriminant < 0
 
 
-# Как запустить
+# How to launch
 Example:
 ```
   import quadratic_equation
@@ -25,16 +25,16 @@ Example:
   root1, root2 = quadratic_equation.get_roots(1.0, -2.2, 1.0)  
 ```
 
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
+Scrit requires installed Python interpretator, version 3.5
 
-Запуск на Linux:
+How to launch on Linux:
 
 ```bash
 python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
 ```
 
-Запуск на Windows происходит аналогично.
+The launch on Windows can be done in similar way.
 
-# Цели проекта
+# Project aims
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+Code is developed for educational purposes in the scope of web-development course ― [DEVMAN.org](https://devman.org)
