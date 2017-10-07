@@ -22,7 +22,7 @@ Example:
   import quadratic_equation
   
   
-  root1, root2 = quadratic_equation.get_roots(1.0, -2.2., 1.0)  
+  root1, root2 = quadratic_equation.get_roots(1.0, -2.2, 1.0)  
 ```
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
