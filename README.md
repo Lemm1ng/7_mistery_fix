@@ -1,9 +1,10 @@
 # Решатель квадратных уравнений
 
-This is the library which solves quadratic equation
+This is the library which solves quadratic equations
 
 # Как использовать
 Functions in the library:
+
 -- get_roots(a, b, c)
 
 Returns roots for the quadratic equation
@@ -21,7 +22,7 @@ Example:
   import quadratic_equation
   
   
-$ root1, root2 = quadratic_equation.get_roots(1.0, -2.2., 1.0)  
+  root1, root2 = quadratic_equation.get_roots(1.0, -2.2., 1.0)  
 ```
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
