@@ -1,12 +1,24 @@
 # Решатель квадратных уравнений
 
-[TODO. Здесь будет описание проекта]
+This is the library which solves quadratic equation
 
 # Как использовать
+Functions in the library:
+-- get_roots(a, b, c)
+Returns roots for the quadratic equation
+$$ax^2 + bx + c = 0$$
+Function output:
+1) root1, root2 if discriminant > 0
+2) root1, None if discriminant == 0
+3) None, None if discriminant < 0
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
 
 # Как запустить
+Example:
+$ import quadratic_equation
+$
+$
+$ root1, root2 = quadratic_equation.get_roots(1.0, -2.2., 1.0)  
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
 
